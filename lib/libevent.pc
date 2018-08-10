@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=G:/Program Files (x86)/libevent
+exec_prefix=G:/Program Files (x86)/libevent
+libdir=G:/Program Files (x86)/libevent/lib
+includedir=G:/Program Files (x86)/libevent/include
+
+Name: libevent
+Description: libevent is an asynchronous notification event loop library
+Version: 2.2.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent
+Libs.private:  -Lws2_32
+Cflags: -I${includedir}
+

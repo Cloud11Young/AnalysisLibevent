@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{33657E36-CE64-366E-AD52-D6EDBE4596FD}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>event_core_static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\YQ\sourcecode\test\test_libevent\lib\lib\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">event_core_static.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">event_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\YQ\sourcecode\test\test_libevent\lib\lib\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">event_core_static.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">event_core</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;HAVE_CONFIG_H;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_DEPRECATE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>F:\YQ\sourcecode\test\test_libevent\lib\include;F:\YQ\sourcecode\test\libevent\include;F:\YQ\sourcecode\test\libevent\compat;F:\YQ\sourcecode\test\libevent;F:\YQ\sourcecode\test\libevent\.\WIN32-Code;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\YQ\sourcecode\test\libevent\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule F:/YQ/sourcecode/test/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"G:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/YQ/sourcecode/test/libevent -BF:/YQ/sourcecode/test/test_libevent/lib --check-stamp-file F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:/YQ/sourcecode/test/libevent/CMakeLists.txt;F:\YQ\sourcecode\test\libevent\CMakeLists.txt;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeSystem.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeCCompiler.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFileOffsetBits.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckVariableExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckSymbolExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckStructHasMember.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCXXSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckPrototypeDefinition.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionKeywords.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckConstExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\AddCompilerFlags.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCCompilerFlag.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\YQ\sourcecode\test\libevent\cmake\VersionViaGit.cmake;F:\YQ\sourcecode\test\libevent\cmake\FindGit.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;F:\YQ\sourcecode\test\libevent\cmake\FindGit.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;F:\YQ\sourcecode\test\libevent\event-config.h.cmake;F:\YQ\sourcecode\test\libevent\evconfig-private.h.cmake;F:\YQ\sourcecode\test\libevent\cmake\AddEventLibrary.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;F:\YQ\sourcecode\test\libevent\libevent_core.pc.in;F:\YQ\sourcecode\test\libevent\libevent_extra.pc.in;F:\YQ\sourcecode\test\libevent\libevent.pc.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfigBuildTree.cmake.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfig.cmake.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfigVersion.cmake.in;F:\YQ\sourcecode\test\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule F:/YQ/sourcecode/test/libevent/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"G:\Program Files (x86)\CMake\bin\cmake.exe" -HF:/YQ/sourcecode/test/libevent -BF:/YQ/sourcecode/test/test_libevent/lib --check-stamp-file F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:/YQ/sourcecode/test/libevent/CMakeLists.txt;F:\YQ\sourcecode\test\libevent\CMakeLists.txt;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeSystem.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInitialize.cmake;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeCCompiler.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeSystemSpecificInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeGenericSystem.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\WindowsPaths.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeLanguageInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC-C.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\Platform\Windows-MSVC.cmake;F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CMakeRCCompiler.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeRCInformation.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCommonLanguageInclude.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckTypeSize.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFileCXX.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFileOffsetBits.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckFunctionExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFile.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckIncludeFiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckVariableExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckSymbolExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckStructHasMember.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCXXSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckPrototypeDefinition.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionKeywords.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\CheckConstExists.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;F:\YQ\sourcecode\test\libevent\cmake\AddCompilerFlags.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCCompilerFlag.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CheckCSourceCompiles.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCheckCompilerFlagCommonPatterns.cmake;F:\YQ\sourcecode\test\libevent\cmake\VersionViaGit.cmake;F:\YQ\sourcecode\test\libevent\cmake\FindGit.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;F:\YQ\sourcecode\test\libevent\cmake\FindGit.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeConfigurableFile.in;F:\YQ\sourcecode\test\libevent\event-config.h.cmake;F:\YQ\sourcecode\test\libevent\evconfig-private.h.cmake;F:\YQ\sourcecode\test\libevent\cmake\AddEventLibrary.cmake;G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeParseArguments.cmake;F:\YQ\sourcecode\test\libevent\libevent_core.pc.in;F:\YQ\sourcecode\test\libevent\libevent_extra.pc.in;F:\YQ\sourcecode\test\libevent\libevent.pc.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfigBuildTree.cmake.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfig.cmake.in;F:\YQ\sourcecode\test\libevent\cmake\LibeventConfigVersion.cmake.in;F:\YQ\sourcecode\test\libevent\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\buffer.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_filter.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_pair.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_ratelim.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_sock.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\event.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evmap.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evthread.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil_rand.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil_time.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\listener.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\log.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\signal.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\strlcpy.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evthread_win32.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\buffer_iocp.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_async.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\event_iocp.c"  />
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\win32select.c"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\YQ\sourcecode\test\test_libevent\lib\ZERO_CHECK.vcxproj">
+      <Project>862FC033-E54C-3C79-9CC4-C34142C9675C</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

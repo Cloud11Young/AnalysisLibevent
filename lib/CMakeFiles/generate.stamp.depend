@@ -1,0 +1,57 @@
+# CMake generation dependency list for this directory.
+F:/YQ/sourcecode/test/libevent/CMakeLists.txt
+F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/3.8.0/CMakeSystem.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInitialize.cmake
+F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/3.8.0/CMakeCCompiler.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeSystemSpecificInformation.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeGenericSystem.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/Platform/Windows.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/Platform/WindowsPaths.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeCInformation.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeLanguageInformation.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC-C.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/Platform/Windows-MSVC.cmake
+F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/3.8.0/CMakeRCCompiler.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeRCInformation.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeCommonLanguageInclude.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckTypeSize.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckIncludeFile.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckIncludeFileCXX.cmake
+F:/YQ/sourcecode/test/libevent/cmake/CheckFunctionExistsEx.cmake
+F:/YQ/sourcecode/test/libevent/cmake/CheckFileOffsetBits.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckFunctionExists.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckIncludeFile.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckIncludeFiles.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckVariableExists.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckSymbolExists.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckStructHasMember.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCSourceCompiles.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCXXSourceCompiles.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCSourceCompiles.cmake
+F:/YQ/sourcecode/test/libevent/cmake/CheckPrototypeDefinition.cmake
+F:/YQ/sourcecode/test/libevent/cmake/CheckFunctionKeywords.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCSourceCompiles.cmake
+F:/YQ/sourcecode/test/libevent/cmake/CheckConstExists.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCSourceCompiles.cmake
+F:/YQ/sourcecode/test/libevent/cmake/AddCompilerFlags.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCCompilerFlag.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CheckCSourceCompiles.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+F:/YQ/sourcecode/test/libevent/cmake/VersionViaGit.cmake
+F:/YQ/sourcecode/test/libevent/cmake/FindGit.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+F:/YQ/sourcecode/test/libevent/cmake/FindGit.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeConfigurableFile.in
+F:/YQ/sourcecode/test/libevent/event-config.h.cmake
+F:/YQ/sourcecode/test/libevent/evconfig-private.h.cmake
+F:/YQ/sourcecode/test/libevent/cmake/AddEventLibrary.cmake
+G:/Program Files (x86)/CMake/share/cmake-3.8/Modules/CMakeParseArguments.cmake
+F:/YQ/sourcecode/test/libevent/libevent_core.pc.in
+F:/YQ/sourcecode/test/libevent/libevent_extra.pc.in
+F:/YQ/sourcecode/test/libevent/libevent.pc.in
+F:/YQ/sourcecode/test/libevent/cmake/LibeventConfigBuildTree.cmake.in
+F:/YQ/sourcecode/test/libevent/cmake/LibeventConfig.cmake.in
+F:/YQ/sourcecode/test/libevent/cmake/LibeventConfigVersion.cmake.in

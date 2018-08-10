@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\buffer.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_filter.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_pair.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_ratelim.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_sock.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\event.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evmap.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evthread.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil_rand.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evutil_time.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\listener.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\log.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\signal.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\strlcpy.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\evthread_win32.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\buffer_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\bufferevent_async.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\event_iocp.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\YQ\sourcecode\test\libevent\win32select.c">
+      <Filter>Source Core</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\YQ\sourcecode\test\libevent\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Core">
+      <UniqueIdentifier>{FE15652C-147D-33B5-B77E-7894E80B37EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

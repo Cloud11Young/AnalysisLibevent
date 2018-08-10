@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=G:/Program Files (x86)/libevent
+exec_prefix=G:/Program Files (x86)/libevent
+libdir=G:/Program Files (x86)/libevent/lib
+includedir=G:/Program Files (x86)/libevent/include
+
+Name: libevent_extra
+Description: libevent_extra
+Version: 2.2.0
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_extra
+Libs.private:  -Lws2_32
+Cflags: -I${includedir}
+

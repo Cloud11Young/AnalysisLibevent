@@ -1,0 +1,1704 @@
+The system is: Windows - 6.3.9600 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler:  
+Build flags: 
+Id flags:  
+
+The output was:
+0
+Microsoft(R) ��������汾 12.0.21005.1
+[Microsoft .NET Framework �汾 4.0.30319.42000]
+��Ȩ���� (C) Microsoft Corporation����������Ȩ����
+
+��������ʱ��Ϊ 2018/8/10 9:59:45��
+�ڵ� 1 �ϵ���Ŀ��F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)��
+PrepareForBuild:
+  ���ڴ���Ŀ¼��Debug\����
+  ���ڴ���Ŀ¼��Debug\CompilerIdC.tlog\����
+InitializeBuildStatus:
+  ���ڴ�����Debug\CompilerIdC.tlog\unsuccessfulbuild������Ϊ��ָ����AlwaysCreate����
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /nologo /W0 /WX- /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue CMakeCCompilerId.c
+  CMakeCCompilerId.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\CMakeCCompilerId.obj
+  CompilerIdC.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CompilerIdC\.\CompilerIdC.exe
+PostBuildEvent:
+  for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+  :VCEnd
+  CMAKE_C_COMPILER=G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe
+FinalizeBuildStatus:
+  ����ɾ���ļ���Debug\CompilerIdC.tlog\unsuccessfulbuild����
+  ���ڶԡ�Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate��ִ�� Touch ����
+�����������Ŀ��F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\3.8.0\CompilerIdC\CompilerIdC.vcxproj��(Ĭ��Ŀ��)�Ĳ�����
+
+�ѳɹ����ɡ�
+    0 ������
+    0 ������
+
+����ʱ�� 00:00:01.79
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+
+The C compiler identification is MSVC, found in "F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/3.8.0/CompilerIdC/CompilerIdC.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f83d0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 9:59:48。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f83d0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f83d0.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f83d0.dir\Debug\cmTC_f83d0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f83d0.dir\Debug\cmTC_f83d0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f83d0.dir\Debug\\" /Fd"cmTC_f83d0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\testCCompiler.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f83d0.dir\Debug\\" /Fd"cmTC_f83d0.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\testCCompiler.c
+  
+  testCCompiler.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f83d0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f83d0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f83d0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_f83d0.dir\Debug\testCCompiler.obj
+  cmTC_f83d0.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f83d0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f83d0.dir\Debug\cmTC_f83d0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f83d0.dir\Debug\cmTC_f83d0.tlog\cmTC_f83d0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f83d0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.88
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_187fa.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 9:59:49。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_187fa.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_187fa.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_187fa.dir\Debug\cmTC_187fa.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_187fa.dir\Debug\cmTC_187fa.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_187fa.dir\Debug\\" /Fd"cmTC_187fa.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_187fa.dir\Debug\\" /Fd"cmTC_187fa.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue "G:\Program Files (x86)\CMake\share\cmake-3.8\Modules\CMakeCCompilerABI.c"
+  
+  CMakeCCompilerABI.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_187fa.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_187fa.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_187fa.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_187fa.dir\Debug\CMakeCCompilerABI.obj
+  cmTC_187fa.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_187fa.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_187fa.dir\Debug\cmTC_187fa.tlog\unsuccessfulbuild”。
+  正在对“cmTC_187fa.dir\Debug\cmTC_187fa.tlog\cmTC_187fa.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_187fa.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.29
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_e070c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 9:59:52。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_e070c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_e070c.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_e070c.dir\Debug\cmTC_e070c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_e070c.dir\Debug\cmTC_e070c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e070c.dir\Debug\\" /Fd"cmTC_e070c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_e070c.dir\Debug\\" /Fd"cmTC_e070c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_e070c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_e070c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_e070c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_e070c.dir\Debug\CheckIncludeFile.obj
+  cmTC_e070c.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_e070c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_e070c.dir\Debug\cmTC_e070c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_e070c.dir\Debug\cmTC_e070c.tlog\cmTC_e070c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_e070c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.86
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8aa42.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 9:59:59。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8aa42.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8aa42.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8aa42.dir\Debug\cmTC_8aa42.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8aa42.dir\Debug\cmTC_8aa42.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8aa42.dir\Debug\\" /Fd"cmTC_8aa42.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8aa42.dir\Debug\\" /Fd"cmTC_8aa42.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8aa42.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8aa42.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8aa42.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_8aa42.dir\Debug\CheckIncludeFile.obj
+  cmTC_8aa42.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8aa42.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8aa42.dir\Debug\cmTC_8aa42.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8aa42.dir\Debug\cmTC_8aa42.tlog\cmTC_8aa42.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8aa42.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.00
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_cbd71.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:01。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_cbd71.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_cbd71.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_cbd71.dir\Debug\cmTC_cbd71.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_cbd71.dir\Debug\cmTC_cbd71.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cbd71.dir\Debug\\" /Fd"cmTC_cbd71.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_cbd71.dir\Debug\\" /Fd"cmTC_cbd71.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_cbd71.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_cbd71.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_cbd71.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_cbd71.dir\Debug\CheckIncludeFile.obj
+  cmTC_cbd71.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_cbd71.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_cbd71.dir\Debug\cmTC_cbd71.tlog\unsuccessfulbuild”。
+  正在对“cmTC_cbd71.dir\Debug\cmTC_cbd71.tlog\cmTC_cbd71.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_cbd71.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.08
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a56ee.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:03。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a56ee.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a56ee.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a56ee.dir\Debug\cmTC_a56ee.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a56ee.dir\Debug\cmTC_a56ee.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a56ee.dir\Debug\\" /Fd"cmTC_a56ee.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a56ee.dir\Debug\\" /Fd"cmTC_a56ee.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a56ee.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a56ee.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a56ee.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_a56ee.dir\Debug\CheckIncludeFile.obj
+  cmTC_a56ee.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a56ee.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a56ee.dir\Debug\cmTC_a56ee.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a56ee.dir\Debug\cmTC_a56ee.tlog\cmTC_a56ee.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a56ee.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.10
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5efd4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:06。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_5efd4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5efd4.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5efd4.dir\Debug\cmTC_5efd4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5efd4.dir\Debug\cmTC_5efd4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5efd4.dir\Debug\\" /Fd"cmTC_5efd4.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5efd4.dir\Debug\\" /Fd"cmTC_5efd4.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_5efd4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_5efd4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_5efd4.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_5efd4.dir\Debug\CheckIncludeFile.obj
+  cmTC_5efd4.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_5efd4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5efd4.dir\Debug\cmTC_5efd4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5efd4.dir\Debug\cmTC_5efd4.tlog\cmTC_5efd4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_5efd4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.75
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3d7a0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:06。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3d7a0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3d7a0.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3d7a0.dir\Debug\cmTC_3d7a0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3d7a0.dir\Debug\cmTC_3d7a0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3d7a0.dir\Debug\\" /Fd"cmTC_3d7a0.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3d7a0.dir\Debug\\" /Fd"cmTC_3d7a0.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3d7a0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3d7a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3d7a0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_3d7a0.dir\Debug\CheckIncludeFile.obj
+  cmTC_3d7a0.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3d7a0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3d7a0.dir\Debug\cmTC_3d7a0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3d7a0.dir\Debug\cmTC_3d7a0.tlog\cmTC_3d7a0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3d7a0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.85
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a8818.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:08。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a8818.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a8818.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a8818.dir\Debug\cmTC_a8818.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a8818.dir\Debug\cmTC_a8818.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a8818.dir\Debug\\" /Fd"cmTC_a8818.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a8818.dir\Debug\\" /Fd"cmTC_a8818.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a8818.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a8818.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a8818.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_a8818.dir\Debug\CheckIncludeFile.obj
+  cmTC_a8818.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a8818.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a8818.dir\Debug\cmTC_a8818.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a8818.dir\Debug\cmTC_a8818.tlog\cmTC_a8818.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a8818.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.27
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_b1680.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:09。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_b1680.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_b1680.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_b1680.dir\Debug\cmTC_b1680.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_b1680.dir\Debug\cmTC_b1680.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1680.dir\Debug\\" /Fd"cmTC_b1680.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_b1680.dir\Debug\\" /Fd"cmTC_b1680.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_b1680.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_b1680.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_b1680.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_b1680.dir\Debug\CheckIncludeFile.obj
+  cmTC_b1680.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_b1680.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_b1680.dir\Debug\cmTC_b1680.tlog\unsuccessfulbuild”。
+  正在对“cmTC_b1680.dir\Debug\cmTC_b1680.tlog\cmTC_b1680.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_b1680.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.74
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8e988.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:10。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8e988.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8e988.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8e988.dir\Debug\cmTC_8e988.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8e988.dir\Debug\cmTC_8e988.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8e988.dir\Debug\\" /Fd"cmTC_8e988.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8e988.dir\Debug\\" /Fd"cmTC_8e988.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8e988.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8e988.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8e988.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_8e988.dir\Debug\CheckIncludeFile.obj
+  cmTC_8e988.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8e988.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8e988.dir\Debug\cmTC_8e988.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8e988.dir\Debug\cmTC_8e988.tlog\cmTC_8e988.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8e988.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.07
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_ace78.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:12。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_ace78.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ace78.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_ace78.dir\Debug\cmTC_ace78.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ace78.dir\Debug\cmTC_ace78.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ace78.dir\Debug\\" /Fd"cmTC_ace78.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_ace78.dir\Debug\\" /Fd"cmTC_ace78.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_ace78.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_ace78.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_ace78.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_ace78.dir\Debug\CheckIncludeFile.obj
+  cmTC_ace78.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_ace78.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_ace78.dir\Debug\cmTC_ace78.tlog\unsuccessfulbuild”。
+  正在对“cmTC_ace78.dir\Debug\cmTC_ace78.tlog\cmTC_ace78.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_ace78.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.88
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8fc5c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:21。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8fc5c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8fc5c.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8fc5c.dir\Debug\cmTC_8fc5c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8fc5c.dir\Debug\cmTC_8fc5c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8fc5c.dir\Debug\\" /Fd"cmTC_8fc5c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8fc5c.dir\Debug\\" /Fd"cmTC_8fc5c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8fc5c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8fc5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8fc5c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_8fc5c.dir\Debug\CheckIncludeFile.obj
+  cmTC_8fc5c.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8fc5c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8fc5c.dir\Debug\cmTC_8fc5c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8fc5c.dir\Debug\cmTC_8fc5c.tlog\cmTC_8fc5c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8fc5c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.93
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_64afb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:29。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_64afb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_64afb.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_64afb.dir\Debug\cmTC_64afb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_64afb.dir\Debug\cmTC_64afb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64afb.dir\Debug\\" /Fd"cmTC_64afb.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_64afb.dir\Debug\\" /Fd"cmTC_64afb.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_64afb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_64afb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_64afb.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_64afb.dir\Debug\CheckIncludeFile.obj
+  cmTC_64afb.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_64afb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_64afb.dir\Debug\cmTC_64afb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_64afb.dir\Debug\cmTC_64afb.tlog\cmTC_64afb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_64afb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.70
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_01ff6.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:00:48。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_01ff6.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_01ff6.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_01ff6.dir\Debug\cmTC_01ff6.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_01ff6.dir\Debug\cmTC_01ff6.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=signal /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_01ff6.dir\Debug\\" /Fd"cmTC_01ff6.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=signal /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_01ff6.dir\Debug\\" /Fd"cmTC_01ff6.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.c
+  
+  CheckFunctionExistsEx.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_01ff6.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_01ff6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_01ff6.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_01ff6.dir\Debug\CheckFunctionExistsEx.obj
+  cmTC_01ff6.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_01ff6.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_01ff6.dir\Debug\cmTC_01ff6.tlog\unsuccessfulbuild”。
+  正在对“cmTC_01ff6.dir\Debug\cmTC_01ff6.tlog\cmTC_01ff6.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_01ff6.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.00
+
+
+Determining if the function umask exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d34c1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:17。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d34c1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d34c1.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d34c1.dir\Debug\cmTC_d34c1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d34c1.dir\Debug\cmTC_d34c1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=umask /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d34c1.dir\Debug\\" /Fd"cmTC_d34c1.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=umask /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d34c1.dir\Debug\\" /Fd"cmTC_d34c1.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\libevent\cmake\CheckFunctionExistsEx.c
+  
+  CheckFunctionExistsEx.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d34c1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d34c1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d34c1.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_d34c1.dir\Debug\CheckFunctionExistsEx.obj
+  cmTC_d34c1.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d34c1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d34c1.dir\Debug\cmTC_d34c1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d34c1.dir\Debug\cmTC_d34c1.tlog\cmTC_d34c1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d34c1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d659d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:20。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d659d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d659d.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d659d.dir\Debug\cmTC_d659d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d659d.dir\Debug\cmTC_d659d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d659d.dir\Debug\\" /Fd"cmTC_d659d.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d659d.dir\Debug\\" /Fd"cmTC_d659d.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d659d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d659d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d659d.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_d659d.dir\Debug\CheckIncludeFile.obj
+  cmTC_d659d.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d659d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d659d.dir\Debug\cmTC_d659d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d659d.dir\Debug\cmTC_d659d.tlog\cmTC_d659d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d659d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.90
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_2a7af.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:21。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_2a7af.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_2a7af.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_2a7af.dir\Debug\cmTC_2a7af.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_2a7af.dir\Debug\cmTC_2a7af.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2a7af.dir\Debug\\" /Fd"cmTC_2a7af.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_2a7af.dir\Debug\\" /Fd"cmTC_2a7af.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_2a7af.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_2a7af.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_2a7af.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_2a7af.dir\Debug\CheckIncludeFile.obj
+  cmTC_2a7af.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_2a7af.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_2a7af.dir\Debug\cmTC_2a7af.tlog\unsuccessfulbuild”。
+  正在对“cmTC_2a7af.dir\Debug\cmTC_2a7af.tlog\cmTC_2a7af.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_2a7af.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.70
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7ac60.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:22。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_7ac60.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7ac60.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7ac60.dir\Debug\cmTC_7ac60.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7ac60.dir\Debug\cmTC_7ac60.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7ac60.dir\Debug\\" /Fd"cmTC_7ac60.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7ac60.dir\Debug\\" /Fd"cmTC_7ac60.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  
+  CheckIncludeFile.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_7ac60.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_7ac60.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_7ac60.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_7ac60.dir\Debug\CheckIncludeFile.obj
+  cmTC_7ac60.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_7ac60.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7ac60.dir\Debug\cmTC_7ac60.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7ac60.dir\Debug\cmTC_7ac60.tlog\cmTC_7ac60.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_7ac60.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.67
+
+
+Determining size of uint8_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_5e2f1.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:23。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_5e2f1.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_5e2f1.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_5e2f1.dir\Debug\cmTC_5e2f1.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_5e2f1.dir\Debug\cmTC_5e2f1.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5e2f1.dir\Debug\\" /Fd"cmTC_5e2f1.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT8_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_5e2f1.dir\Debug\\" /Fd"cmTC_5e2f1.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT8_T.c
+  
+  EVENT__HAVE_UINT8_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_5e2f1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_5e2f1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_5e2f1.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_5e2f1.dir\Debug\EVENT__HAVE_UINT8_T.obj
+  cmTC_5e2f1.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_5e2f1.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_5e2f1.dir\Debug\cmTC_5e2f1.tlog\unsuccessfulbuild”。
+  正在对“cmTC_5e2f1.dir\Debug\cmTC_5e2f1.tlog\cmTC_5e2f1.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_5e2f1.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.71
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_efa8d.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:24。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_efa8d.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_efa8d.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_efa8d.dir\Debug\cmTC_efa8d.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_efa8d.dir\Debug\cmTC_efa8d.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efa8d.dir\Debug\\" /Fd"cmTC_efa8d.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT16_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_efa8d.dir\Debug\\" /Fd"cmTC_efa8d.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT16_T.c
+  
+  EVENT__HAVE_UINT16_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_efa8d.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_efa8d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_efa8d.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_efa8d.dir\Debug\EVENT__HAVE_UINT16_T.obj
+  cmTC_efa8d.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_efa8d.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_efa8d.dir\Debug\cmTC_efa8d.tlog\unsuccessfulbuild”。
+  正在对“cmTC_efa8d.dir\Debug\cmTC_efa8d.tlog\cmTC_efa8d.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_efa8d.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of uint32_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3ca1f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:25。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3ca1f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3ca1f.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3ca1f.dir\Debug\cmTC_3ca1f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3ca1f.dir\Debug\cmTC_3ca1f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3ca1f.dir\Debug\\" /Fd"cmTC_3ca1f.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT32_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3ca1f.dir\Debug\\" /Fd"cmTC_3ca1f.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT32_T.c
+  
+  EVENT__HAVE_UINT32_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3ca1f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3ca1f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3ca1f.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_3ca1f.dir\Debug\EVENT__HAVE_UINT32_T.obj
+  cmTC_3ca1f.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3ca1f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3ca1f.dir\Debug\cmTC_3ca1f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3ca1f.dir\Debug\cmTC_3ca1f.tlog\cmTC_3ca1f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3ca1f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.90
+
+
+Determining size of uint64_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_005c9.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:27。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_005c9.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_005c9.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_005c9.dir\Debug\cmTC_005c9.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_005c9.dir\Debug\cmTC_005c9.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_005c9.dir\Debug\\" /Fd"cmTC_005c9.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT64_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_005c9.dir\Debug\\" /Fd"cmTC_005c9.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINT64_T.c
+  
+  EVENT__HAVE_UINT64_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_005c9.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_005c9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_005c9.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_005c9.dir\Debug\EVENT__HAVE_UINT64_T.obj
+  cmTC_005c9.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_005c9.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_005c9.dir\Debug\cmTC_005c9.tlog\unsuccessfulbuild”。
+  正在对“cmTC_005c9.dir\Debug\cmTC_005c9.tlog\cmTC_005c9.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_005c9.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.73
+
+
+Determining size of short passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_da7ab.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:28。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_da7ab.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_da7ab.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_da7ab.dir\Debug\cmTC_da7ab.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_da7ab.dir\Debug\cmTC_da7ab.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_da7ab.dir\Debug\\" /Fd"cmTC_da7ab.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SHORT.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_da7ab.dir\Debug\\" /Fd"cmTC_da7ab.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SHORT.c
+  
+  EVENT__SIZEOF_SHORT.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_da7ab.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_da7ab.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_da7ab.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_da7ab.dir\Debug\EVENT__SIZEOF_SHORT.obj
+  cmTC_da7ab.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_da7ab.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_da7ab.dir\Debug\cmTC_da7ab.tlog\unsuccessfulbuild”。
+  正在对“cmTC_da7ab.dir\Debug\cmTC_da7ab.tlog\cmTC_da7ab.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_da7ab.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.92
+
+
+Determining size of int passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_bffe5.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:30。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_bffe5.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bffe5.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_bffe5.dir\Debug\cmTC_bffe5.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bffe5.dir\Debug\cmTC_bffe5.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bffe5.dir\Debug\\" /Fd"cmTC_bffe5.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_INT.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_bffe5.dir\Debug\\" /Fd"cmTC_bffe5.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_INT.c
+  
+  EVENT__SIZEOF_INT.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_bffe5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_bffe5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_bffe5.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_bffe5.dir\Debug\EVENT__SIZEOF_INT.obj
+  cmTC_bffe5.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_bffe5.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bffe5.dir\Debug\cmTC_bffe5.tlog\unsuccessfulbuild”。
+  正在对“cmTC_bffe5.dir\Debug\cmTC_bffe5.tlog\cmTC_bffe5.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_bffe5.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.80
+
+
+Determining size of unsigned passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_d6fd8.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:31。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d6fd8.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_d6fd8.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_d6fd8.dir\Debug\cmTC_d6fd8.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_d6fd8.dir\Debug\cmTC_d6fd8.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d6fd8.dir\Debug\\" /Fd"cmTC_d6fd8.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_d6fd8.dir\Debug\\" /Fd"cmTC_d6fd8.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED.c
+  
+  EVENT__SIZEOF_UNSIGNED.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d6fd8.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d6fd8.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_d6fd8.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_d6fd8.dir\Debug\EVENT__SIZEOF_UNSIGNED.obj
+  cmTC_d6fd8.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_d6fd8.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_d6fd8.dir\Debug\cmTC_d6fd8.tlog\unsuccessfulbuild”。
+  正在对“cmTC_d6fd8.dir\Debug\cmTC_d6fd8.tlog\cmTC_d6fd8.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_d6fd8.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.75
+
+
+Determining size of unsigned int passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_06260.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:32。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_06260.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_06260.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_06260.dir\Debug\cmTC_06260.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_06260.dir\Debug\cmTC_06260.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_06260.dir\Debug\\" /Fd"cmTC_06260.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED_INT.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_06260.dir\Debug\\" /Fd"cmTC_06260.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_UNSIGNED_INT.c
+  
+  EVENT__SIZEOF_UNSIGNED_INT.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_06260.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_06260.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_06260.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_06260.dir\Debug\EVENT__SIZEOF_UNSIGNED_INT.obj
+  cmTC_06260.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_06260.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_06260.dir\Debug\cmTC_06260.tlog\unsuccessfulbuild”。
+  正在对“cmTC_06260.dir\Debug\cmTC_06260.tlog\cmTC_06260.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_06260.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.77
+
+
+Determining size of long passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_4e60c.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:33。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_4e60c.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4e60c.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_4e60c.dir\Debug\cmTC_4e60c.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4e60c.dir\Debug\cmTC_4e60c.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4e60c.dir\Debug\\" /Fd"cmTC_4e60c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_4e60c.dir\Debug\\" /Fd"cmTC_4e60c.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG.c
+  
+  EVENT__SIZEOF_LONG.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_4e60c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_4e60c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_4e60c.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_4e60c.dir\Debug\EVENT__SIZEOF_LONG.obj
+  cmTC_4e60c.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_4e60c.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_4e60c.dir\Debug\cmTC_4e60c.tlog\unsuccessfulbuild”。
+  正在对“cmTC_4e60c.dir\Debug\cmTC_4e60c.tlog\cmTC_4e60c.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_4e60c.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.18
+
+
+Determining size of long long passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a20a0.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:34。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a20a0.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a20a0.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a20a0.dir\Debug\cmTC_a20a0.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a20a0.dir\Debug\cmTC_a20a0.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a20a0.dir\Debug\\" /Fd"cmTC_a20a0.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG_LONG.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a20a0.dir\Debug\\" /Fd"cmTC_a20a0.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_LONG_LONG.c
+  
+  EVENT__SIZEOF_LONG_LONG.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a20a0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a20a0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a20a0.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_a20a0.dir\Debug\EVENT__SIZEOF_LONG_LONG.obj
+  cmTC_a20a0.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a20a0.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a20a0.dir\Debug\cmTC_a20a0.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a20a0.dir\Debug\cmTC_a20a0.tlog\cmTC_a20a0.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a20a0.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.74
+
+
+Determining if the __FUNCTION__ exist passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f4e76.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:37。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f4e76.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f4e76.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f4e76.dir\Debug\cmTC_f4e76.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f4e76.dir\Debug\cmTC_f4e76.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f4e76.dir\Debug\\" /Fd"cmTC_f4e76.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f4e76.dir\Debug\\" /Fd"cmTC_f4e76.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+  
+  CheckSymbolExists.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f4e76.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f4e76.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f4e76.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_f4e76.dir\Debug\CheckSymbolExists.obj
+  cmTC_f4e76.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f4e76.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f4e76.dir\Debug\cmTC_f4e76.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f4e76.dir\Debug\cmTC_f4e76.tlog\cmTC_f4e76.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f4e76.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.95
+
+File F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __FUNCTION__
+  return ((int*)(&__FUNCTION__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining size of size_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_3ae13.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:45。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3ae13.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_3ae13.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_3ae13.dir\Debug\cmTC_3ae13.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_3ae13.dir\Debug\cmTC_3ae13.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3ae13.dir\Debug\\" /Fd"cmTC_3ae13.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SIZE_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_3ae13.dir\Debug\\" /Fd"cmTC_3ae13.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SIZE_T.c
+  
+  EVENT__SIZEOF_SIZE_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3ae13.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3ae13.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_3ae13.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_3ae13.dir\Debug\EVENT__SIZEOF_SIZE_T.obj
+  cmTC_3ae13.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_3ae13.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_3ae13.dir\Debug\cmTC_3ae13.tlog\unsuccessfulbuild”。
+  正在对“cmTC_3ae13.dir\Debug\cmTC_3ae13.tlog\cmTC_3ae13.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_3ae13.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.81
+
+
+Determining size of off_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_71dff.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:46。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_71dff.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_71dff.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_71dff.dir\Debug\cmTC_71dff.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_71dff.dir\Debug\cmTC_71dff.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_71dff.dir\Debug\\" /Fd"cmTC_71dff.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_OFF_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_71dff.dir\Debug\\" /Fd"cmTC_71dff.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_OFF_T.c
+  
+  EVENT__SIZEOF_OFF_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_71dff.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_71dff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_71dff.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_71dff.dir\Debug\EVENT__SIZEOF_OFF_T.obj
+  cmTC_71dff.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_71dff.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_71dff.dir\Debug\cmTC_71dff.tlog\unsuccessfulbuild”。
+  正在对“cmTC_71dff.dir\Debug\cmTC_71dff.tlog\cmTC_71dff.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_71dff.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.87
+
+
+Determining size of SSIZE_T passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_1741e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:48。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_1741e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_1741e.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_1741e.dir\Debug\cmTC_1741e.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_1741e.dir\Debug\cmTC_1741e.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1741e.dir\Debug\\" /Fd"cmTC_1741e.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_UPPER.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_1741e.dir\Debug\\" /Fd"cmTC_1741e.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SSIZE_T_UPPER.c
+  
+  EVENT__SIZEOF_SSIZE_T_UPPER.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_1741e.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_1741e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_1741e.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_1741e.dir\Debug\EVENT__SIZEOF_SSIZE_T_UPPER.obj
+  cmTC_1741e.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_1741e.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_1741e.dir\Debug\cmTC_1741e.tlog\unsuccessfulbuild”。
+  正在对“cmTC_1741e.dir\Debug\cmTC_1741e.tlog\cmTC_1741e.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_1741e.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.74
+
+
+Determining size of socklen_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_f29b2.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:49。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f29b2.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_f29b2.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_f29b2.dir\Debug\cmTC_f29b2.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_f29b2.dir\Debug\cmTC_f29b2.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f29b2.dir\Debug\\" /Fd"cmTC_f29b2.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SOCKLEN_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_f29b2.dir\Debug\\" /Fd"cmTC_f29b2.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_SOCKLEN_T.c
+  
+  EVENT__SIZEOF_SOCKLEN_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f29b2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f29b2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_f29b2.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_f29b2.dir\Debug\EVENT__SIZEOF_SOCKLEN_T.obj
+  cmTC_f29b2.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_f29b2.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_f29b2.dir\Debug\cmTC_f29b2.tlog\unsuccessfulbuild”。
+  正在对“cmTC_f29b2.dir\Debug\cmTC_f29b2.tlog\cmTC_f29b2.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_f29b2.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.01
+
+
+Determining size of uintptr_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_97172.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:52。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_97172.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_97172.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_97172.dir\Debug\cmTC_97172.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_97172.dir\Debug\cmTC_97172.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_97172.dir\Debug\\" /Fd"cmTC_97172.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINTPTR_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_97172.dir\Debug\\" /Fd"cmTC_97172.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_UINTPTR_T.c
+  
+  EVENT__HAVE_UINTPTR_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_97172.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_97172.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_97172.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_97172.dir\Debug\EVENT__HAVE_UINTPTR_T.obj
+  cmTC_97172.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_97172.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_97172.dir\Debug\cmTC_97172.tlog\unsuccessfulbuild”。
+  正在对“cmTC_97172.dir\Debug\cmTC_97172.tlog\cmTC_97172.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_97172.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.71
+
+
+Determining size of void * passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_a1a0a.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:53。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a1a0a.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_a1a0a.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_a1a0a.dir\Debug\cmTC_a1a0a.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_a1a0a.dir\Debug\cmTC_a1a0a.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1a0a.dir\Debug\\" /Fd"cmTC_a1a0a.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_VOID_P.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_a1a0a.dir\Debug\\" /Fd"cmTC_a1a0a.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_VOID_P.c
+  
+  EVENT__SIZEOF_VOID_P.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a1a0a.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a1a0a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_a1a0a.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_a1a0a.dir\Debug\EVENT__SIZEOF_VOID_P.obj
+  cmTC_a1a0a.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_a1a0a.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_a1a0a.dir\Debug\cmTC_a1a0a.tlog\unsuccessfulbuild”。
+  正在对“cmTC_a1a0a.dir\Debug\cmTC_a1a0a.tlog\cmTC_a1a0a.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_a1a0a.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.04
+
+
+Determining size of time_t passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_8ebcb.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:55。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8ebcb.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_8ebcb.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_8ebcb.dir\Debug\cmTC_8ebcb.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_8ebcb.dir\Debug\cmTC_8ebcb.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ebcb.dir\Debug\\" /Fd"cmTC_8ebcb.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_TIME_T.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_8ebcb.dir\Debug\\" /Fd"cmTC_8ebcb.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__SIZEOF_TIME_T.c
+  
+  EVENT__SIZEOF_TIME_T.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8ebcb.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8ebcb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_8ebcb.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_8ebcb.dir\Debug\EVENT__SIZEOF_TIME_T.obj
+  cmTC_8ebcb.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_8ebcb.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_8ebcb.dir\Debug\cmTC_8ebcb.tlog\unsuccessfulbuild”。
+  正在对“cmTC_8ebcb.dir\Debug\cmTC_8ebcb.tlog\cmTC_8ebcb.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_8ebcb.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.96
+
+
+Determining size of struct addrinfo passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_dcded.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:56。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_dcded.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_dcded.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_dcded.dir\Debug\cmTC_dcded.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_dcded.dir\Debug\cmTC_dcded.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dcded.dir\Debug\\" /Fd"cmTC_dcded.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_ADDRINFO.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_dcded.dir\Debug\\" /Fd"cmTC_dcded.dir\Debug\vc120.pdb" /Gd /TC /FIwinsock2.h /FIws2tcpip.h /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_ADDRINFO.c
+  
+  EVENT__HAVE_STRUCT_ADDRINFO.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_dcded.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_dcded.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_dcded.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_dcded.dir\Debug\EVENT__HAVE_STRUCT_ADDRINFO.obj
+  cmTC_dcded.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_dcded.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_dcded.dir\Debug\cmTC_dcded.tlog\unsuccessfulbuild”。
+  正在对“cmTC_dcded.dir\Debug\cmTC_dcded.tlog\cmTC_dcded.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_dcded.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.78
+
+
+Determining size of struct in6_addr passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_7875f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:01:57。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_7875f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7875f.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_7875f.dir\Debug\cmTC_7875f.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7875f.dir\Debug\cmTC_7875f.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7875f.dir\Debug\\" /Fd"cmTC_7875f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_IN6_ADDR.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_7875f.dir\Debug\\" /Fd"cmTC_7875f.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_IN6_ADDR.c
+  
+  EVENT__HAVE_STRUCT_IN6_ADDR.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_7875f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_7875f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_7875f.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_7875f.dir\Debug\EVENT__HAVE_STRUCT_IN6_ADDR.obj
+  cmTC_7875f.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_7875f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_7875f.dir\Debug\cmTC_7875f.tlog\unsuccessfulbuild”。
+  正在对“cmTC_7875f.dir\Debug\cmTC_7875f.tlog\cmTC_7875f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_7875f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:01.41
+
+
+Determining size of struct sockaddr_in6 passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_44b38.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:02:01。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_44b38.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_44b38.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_44b38.dir\Debug\cmTC_44b38.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_44b38.dir\Debug\cmTC_44b38.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_44b38.dir\Debug\\" /Fd"cmTC_44b38.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_44b38.dir\Debug\\" /Fd"cmTC_44b38.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+  
+  EVENT__HAVE_STRUCT_SOCKADDR_IN6.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_44b38.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_44b38.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_44b38.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_44b38.dir\Debug\EVENT__HAVE_STRUCT_SOCKADDR_IN6.obj
+  cmTC_44b38.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_44b38.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_44b38.dir\Debug\cmTC_44b38.tlog\unsuccessfulbuild”。
+  正在对“cmTC_44b38.dir\Debug\cmTC_44b38.tlog\cmTC_44b38.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_44b38.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.76
+
+
+Determining size of struct sockaddr_storage passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_301c4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:02:05。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_301c4.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_301c4.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_301c4.dir\Debug\cmTC_301c4.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_301c4.dir\Debug\cmTC_301c4.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_301c4.dir\Debug\\" /Fd"cmTC_301c4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_301c4.dir\Debug\\" /Fd"cmTC_301c4.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+  
+  EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_301c4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_301c4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_301c4.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_301c4.dir\Debug\EVENT__HAVE_STRUCT_SOCKADDR_STORAGE.obj
+  cmTC_301c4.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_301c4.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_301c4.dir\Debug\cmTC_301c4.tlog\unsuccessfulbuild”。
+  正在对“cmTC_301c4.dir\Debug\cmTC_301c4.tlog\cmTC_301c4.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_301c4.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.62
+
+
+Performing C SOURCE FILE Test EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY succeeded with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_65ddc.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:02:06。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_65ddc.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_65ddc.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_65ddc.dir\Debug\cmTC_65ddc.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_65ddc.dir\Debug\cmTC_65ddc.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_65ddc.dir\Debug\\" /Fd"cmTC_65ddc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\src.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D EVENT__HAVE_STRUCT_SOCKADDR_STORAGE_SS_FAMILY /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_65ddc.dir\Debug\\" /Fd"cmTC_65ddc.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\src.c
+  
+  src.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_65ddc.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_65ddc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_65ddc.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_65ddc.dir\Debug\src.obj
+  cmTC_65ddc.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_65ddc.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_65ddc.dir\Debug\cmTC_65ddc.tlog\unsuccessfulbuild”。
+  正在对“cmTC_65ddc.dir\Debug\cmTC_65ddc.tlog\cmTC_65ddc.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_65ddc.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.57
+
+Source file was:
+
+#include <winsock2.h>
+#include <ws2tcpip.h>
+
+int main()
+{
+   (void)sizeof(((struct sockaddr_storage *)0)->ss_family);
+   return 0;
+}
+
+Determining size of struct linger passed with the following output:
+Change Dir: F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp
+
+Run Build Command:"G:/Program Files (x86)/MSBuild/12.0/bin/MSBuild.exe" "cmTC_9bff7.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=12.0"
+Microsoft(R) 生成引擎版本 12.0.21005.1
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2018/8/10 10:02:08。
+节点 1 上的项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_9bff7.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_9bff7.dir\Debug\”。
+  正在创建目录“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\”。
+  正在创建目录“cmTC_9bff7.dir\Debug\cmTC_9bff7.tlog\”。
+InitializeBuildStatus:
+  正在创建“cmTC_9bff7.dir\Debug\cmTC_9bff7.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9bff7.dir\Debug\\" /Fd"cmTC_9bff7.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_LINGER.c
+  用于 x86 的 Microsoft (R) C/C++ 优化编译器 18.00.21005.1 版版权所有(C) Microsoft Corporation。  保留所有权利。
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D WIN32_LEAN_AND_MEAN /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTC_9bff7.dir\Debug\\" /Fd"cmTC_9bff7.dir\Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:queue F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CheckTypeSize\EVENT__HAVE_STRUCT_LINGER.c
+  
+  EVENT__HAVE_STRUCT_LINGER.c
+Link:
+  G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_9bff7.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_9bff7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/YQ/sourcecode/test/test_libevent/lib/CMakeFiles/CMakeTmp/Debug/cmTC_9bff7.lib" /MACHINE:X86 /SAFESEH   /machine:X86 cmTC_9bff7.dir\Debug\EVENT__HAVE_STRUCT_LINGER.obj
+  cmTC_9bff7.vcxproj -> F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\Debug\cmTC_9bff7.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_9bff7.dir\Debug\cmTC_9bff7.tlog\unsuccessfulbuild”。
+  正在对“cmTC_9bff7.dir\Debug\cmTC_9bff7.tlog\cmTC_9bff7.lastbuildstate”执行 Touch 任务。
+已完成生成项目“F:\YQ\sourcecode\test\test_libevent\lib\CMakeFiles\CMakeTmp\cmTC_9bff7.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.57
+
+
